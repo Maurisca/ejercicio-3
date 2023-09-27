@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "titulo": "Encuesta de satisfaccion",
+        "descripcion": "Por favor, tomese un momento para responder nuestras preguntas de satisfaccion.",
+        "preguntas": [
+            {
+                "id": 1,
+                "pregunta": "¿Como califacaria nuestro servicio?",
+                "opciones": [
+                    { "id": 1, "texto": "Excelente" },
+                    { "id": 2, "texto": "Bueno" },
+                    { "id": 3, "texto": "Regular" },
+                    { "id": 4, "texto": "Malo" }
+                ]
+            },
+            {
+                "id": 2,
+                "pregunta": "¿Que podemos mejorar?",
+                "opciones": [
+                    { "id": 5, "texto": "Atencion al cliente" },
+                    { "id": 6, "texto": "Tiempo de entrega" },
+                    { "id": 7, "texto": "Variedad de productos" },
+                    { "id": 8, "texto": "Calidad de productos" }
+                ]      
+            }
+        ]        
+    },
+    {
+        "id": 2,
+        "titulo": "Encuestas de Productos",
+        "descripcion": "Ayudemos a mejorar nuestros productos completando esta encuesta.",
+        "preguntas": [
+            {
+                "id": 3,
+                "pregunta": "¿Cual es su producto favorito?",
+                "opciones": [
+                    { "id": 9, "texto": "Producto 1" },
+                    { "id": 10, "texto": "Producto 2" },
+                    { "id": 11, "texto": "Producto 3" },
+                    { "id": 12, "texto": "Producto 4" }
+                ]
+            },
+            {
+                "id": 4,
+                "pregunta": "¿Como podemos mejorar nuestro servicio al cliente?",
+                "opciones": [
+                    { "id": 13, "texto": "Mayor disponibilidad de atencion" },
+                    { "id": 14, "texto": "Mas opciones de contacto" },
+                    { "id": 15, "texto": "Respuestas mas rapidas" },
+                    { "id": 16, "texto": "Entrenamiento al personal" }
+                ]
+            }
+        ]
+    }
+]
