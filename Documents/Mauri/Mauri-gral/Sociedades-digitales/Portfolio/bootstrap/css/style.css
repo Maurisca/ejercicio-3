@@ -1,0 +1,200 @@
+body{
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+header .nav{
+    min-height: 80px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+header .logo .h2, header .logo, p{
+    font-size: 16px;
+    display: inline-block;
+}
+
+header .logo .icono{
+    color: #bfbfbf;
+}
+
+header .menu .c1 { background-color: #3da5e2; }
+header .menu .c2 { background-color: #005385; }
+header .menu .c3 { background-color: #003855; }
+
+header .menu .c1 :hover { background-color: #1ba0ef; }
+header .menu .c2 :hover { background-color: #00426a; }
+header .menu .c3 :hover { background-color: #002d44; }
+
+header .logo .svg{
+    width: 20px;
+    height: 20px;
+}
+
+header .logo p{
+    color: #777777;
+}
+
+/* main */
+/* portfolio */
+.Portafolio{
+    border-top: 5px solid #3da5e2;
+    background: #fff;
+}
+
+.Portafolio .titulo {
+    color: #3da5e2;
+    font-family: 'open sans', 'sans-serif';
+    font-weight: 300;
+}
+
+.Portafolio .Galeria .contenedor-imagen{
+    max-height: 180px;
+    overflow: hidden;
+}
+
+.Portafolio .Galeria .contenedor-imagen a{
+    background: #3da5e2;
+    display: inline-block;
+}
+
+.Portafolio .Galeria .contenedor-imagen:hover img{
+    opacity: .3;
+}
+
+/* vantana modal */
+.modal-dialog{
+    max-width: 1000px;
+}
+
+/* Acerca de */
+.acerca-de .foto .nombre{
+    color: #545454;
+    font-weight: 300;
+    font-size: 18;
+    letter-spacing: 2px;
+}
+.acerca-de .info .titulo{
+    color: #005385;
+    font-family: 'open sans', 'sans-serif';
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.acerca-de .info .label{
+    font-size: 18px;
+    font-weight: 600;
+    color: #005385;
+    margin-bottom: 10px;
+}
+.acerca-de .info .progress{
+    background: #005385;
+    border-radius: 0;
+    height: 25px;
+}
+.acerca-de .info .progress .progress-bar{
+    background: #3da5e2;
+    line-height: 25px;
+    padding-left: 20px;
+}
+
+/* form contacto */
+.contacto{
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+}
+.contacto .titulo{
+    color: #003855;
+    font-family: 'open sans', 'sans-serif';
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.contacto .formulario input[type="text"]
+.contacto .formulario input[type="email"]
+.contacto .formulario textarea{
+    padding: 15px;
+    border: none;
+    font-family: 'open sans', 'sans-serif';
+}
+.contacto .formulario textarea{
+    height: 150px;
+    min-height: 150px;
+    max-height: 250px;
+}
+.contacto .formulario .boton{
+    background: #3da5e2;
+    border: none;
+    padding: 7px 30px;
+    color: #fff;
+    font-family: 'open sans', 'sans-serif';
+    cursor: pointer;
+    width: auto;
+    border-radius: 3px;
+}
+.contacto .formulario .boton:hover{
+    background: #1ba0ef;
+}
+
+/* footer */
+.redes-sociales{
+    padding: 40px;
+    margin-top: 40px;
+}
+.redes-sociales .icono{
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background: #cbcbcb;
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: all .3s ease;
+}
+.redes-sociales .icono svg{
+    width: 50px;
+    height: 40px;
+}
+.redes-sociales .twitter{
+    background: #1da1f2;
+}
+.redes-sociales .instagram{
+    background: #8332b4;
+}
+.redes-sociales .facebook{
+    background: #3b5998;
+}
+
+/* responsive */
+/* dispositivo sm */
+@media screen and (max-width:576px){}
+
+/* dispositivo md */
+@media screen and (max-width:768px){}
+
+/* dispositivo lg */
+@media screen and (max-width:992px){
+    .logo{
+        height: 76px;
+    }
+    header .menu{
+        min-height: 76px;
+    }
+    header .menu a{
+        width: 100%;
+    }
+    .Portafolio .Galeria .contenedor-imagen:nth-child(1){order: 1;}
+    .Portafolio .Galeria .contenedor-imagen:nth-child(2){order: 3;}
+    .Portafolio .Galeria .contenedor-imagen:nth-child(3){order: 6;}
+    .Portafolio .Galeria .contenedor-imagen:nth-child(4){order: 2;}
+    .Portafolio .Galeria .contenedor-imagen:nth-child(5){order: 5;}
+    .Portafolio .Galeria .contenedor-imagen:nth-child(6){order: 4;}
+    .Portafolio .Galeria .contenedor-imagen:nth-child(7){order: 7;}
+}
+
+/* dispositivo xl */
+@media screen and (max-width:1200px) {}
+
+/* dispositivo xxl */
+@media screen and (max-width:1400px) {}
